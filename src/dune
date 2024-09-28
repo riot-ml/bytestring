@@ -1,7 +1,7 @@
 (library
  (public_name bytestring)
  (modules bytestring)
- (libraries cstruct uutf rio))
+ (libraries uutf rio))
 
 (library
  (package bytestring)

@@ -20,8 +20,8 @@ tags: [
   "iterators"
   "utf8"
 ]
-homepage: "https://github.com/riot-ml/riot"
-bug-reports: "https://github.com/riot-ml/riot/issues"
+homepage: "https://github.com/riot-ml/bytestring"
+bug-reports: "https://github.com/riot-ml/bytestring/issues"
 depends: [
   "rio" {= version}
   "ocaml" {>= "5.1.1"}
@@ -46,4 +46,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/riot-ml/riot.git"
+dev-repo: "git+https://github.com/riot-ml/bytestring.git"

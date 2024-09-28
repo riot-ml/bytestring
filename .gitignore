@@ -3,3 +3,5 @@ _build
 .direnv
 result
 .envrc
+dune.lock
+dev-tools.locks

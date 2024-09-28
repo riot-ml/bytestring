@@ -118,7 +118,8 @@
     {
       tool_name = "ppx_driver";
       include_dirs = [];
-      load_path = [];
+      hidden_include_dirs = [];
+      load_path = ([], []);
       open_modules = [];
       for_package = None;
       debug = false;
@@ -137,7 +138,8 @@
     {
       tool_name = "ppx_driver";
       include_dirs = [];
-      load_path = [];
+      hidden_include_dirs = [];
+      load_path = ([], []);
       open_modules = [];
       for_package = None;
       debug = false;
@@ -220,7 +222,8 @@
     {
       tool_name = "ppx_driver";
       include_dirs = [];
-      load_path = [];
+      hidden_include_dirs = [];
+      load_path = ([], []);
       open_modules = [];
       for_package = None;
       debug = false;

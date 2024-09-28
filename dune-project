@@ -7,7 +7,7 @@
 (cram enable)
 
 (source
- (github riot-ml/riot))
+ (github riot-ml/bytestring))
 
 (authors "Leandro Ostera <leandro@abstractmachines.dev>")
 
@@ -32,3 +32,5 @@
     dune
     )
   (tags (bytes strings "pattern matching" "binary strings" rope transient iterators utf8)))
+
+; (pin (package (name rio)) (url "git+https://github.com/riot-ml/rio"))
